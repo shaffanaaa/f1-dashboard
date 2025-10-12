@@ -23,6 +23,7 @@ st.markdown(
     - Prediction model to predict race wins and optimal pit windows
     - Driver point progression through different seasons
     - Detailed technical statistical analysis
+    -Consise web pages that have multiple visualizations and stats
 
     Note: Some of the data does take a while to load as 
     Im still figuring out how to streamline that process
