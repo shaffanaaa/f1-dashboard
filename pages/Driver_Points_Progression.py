@@ -12,7 +12,7 @@ import streamlit as st
 import streamlit as st
 import fastf1
 
-fastf1.Cache.enable_cache("/Users/farzana/f1_cache")
+#fastf1.Cache.enable_cache("/Users/farzana/f1_cache")
 
 st.title("Individual Driver Points")
 st.text("Displays how many points a driver has got in each race for the season," \

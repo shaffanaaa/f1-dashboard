@@ -12,7 +12,7 @@ import streamlit as st
 import streamlit as st
 import fastf1
 
-fastf1.Cache.enable_cache("/Users/farzana/f1_cache")
+#fastf1.Cache.enable_cache("/Users/farzana/f1_cache")
 
 st.title("Comparing Points Between Two Drivers")
 st.write("Compare how many points any 2 drivers from a season are scoring. " \
