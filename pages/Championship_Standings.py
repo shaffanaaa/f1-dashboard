@@ -16,7 +16,7 @@ from fastf1._api import SessionNotAvailableError
 
 
 
-fastf1.Cache.enable_cache("/Users/farzana/f1_cache")
+#fastf1.Cache.enable_cache("/Users/farzana/f1_cache")
 
 st.set_page_config(layout="wide")
 

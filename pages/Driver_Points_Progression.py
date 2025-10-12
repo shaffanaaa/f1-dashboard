@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-fastf1.Cache.enable_cache("/Users/farzana/f1_cache")
+#fastf1.Cache.enable_cache("/Users/farzana/f1_cache")
 
 
 import streamlit as st
