@@ -19,6 +19,7 @@ st.write("Compare how many points any 2 drivers from a season are scoring. " \
 "Compare with teammates and non-teammates!")
 
 
+
 year = st.number_input("Select the season", min_value=2000, max_value=2025, value=2023)
 schedules = fastf1.get_event_schedule(year)
 locations = schedules["Location"]
