@@ -18,6 +18,12 @@ st.markdown(
     Im working on this passion project on the side so 
     some of the stuff does need work, any feedback is appreciated!
 
+
+    Future Features: 
+    - Prediction model to predict race wins and optimal pit windows
+    - Driver point progression through different seasons
+    - Detailed technical statistical analysis
+
     Note: Some of the data does take a while to load as 
     Im still figuring out how to streamline that process
 
