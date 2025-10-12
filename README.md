@@ -3,9 +3,15 @@ F1 is my favorite sport so I thought I would combine my passion for this sport w
 
 Future Features:
 
-Prediction model to predict race wins and optimal pit windows
-Driver point progression through different seasons
-Detailed technical statistical analysis
+- Prediction model to predict race wins and optimal pit windows
+- Driver point progression through different seasons
+- Detailed technical statistical analysis
+- Consice web pages with multiple webpages
+
+
+
 Note: Some of the data does take a while to load as Im still figuring out how to streamline that process
 
 Forza Ferrari!
+
+
