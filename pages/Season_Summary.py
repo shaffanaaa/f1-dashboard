@@ -26,7 +26,7 @@ standings = []
 short_event_names = []
 
 for _, event in schedule.iterrows():
-    event_name, round_number = event["EventName"], event["RoundNumber"]
+    event_name, round_number = event["EventName"],event["RoundNumber"]
     short_event_names.append(event_name.replace("Grand Prix", "").strip())
 
     # Only need to load the results data
@@ -41,7 +41,8 @@ for _, event in schedule.iterrows():
     # In 2022 and 2021, you should match on "sprint"
     if event["EventFormat"] == "sprint_qualifying":
         sprint = ff1.get_session(season, event_name, "S")
-        sprint.load(laps=False, telemetry=False, weather=False, messages=False)
+        sprint.load(laps=False, telemetry=False,
+                     weather=False, messages=False)
 
     for _, driver_row in race.results.iterrows():
         abbreviation, race_points, race_position = (

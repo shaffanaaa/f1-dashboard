@@ -21,13 +21,13 @@ from fastf1._api import SessionNotAvailableError
 st.set_page_config(layout="wide")
 
 st.title("Driver Championship Standings")
-st.write("Note: This takes quite a bit of time to load, around 3mins")
+st.write("Note: Takes around 40 seconds to load")
 st.write("**rankings may not be accurate as sprint points not taken into account yet**")
 st.write("")
 
 
 year = st.number_input("Enter the year to see the standings for", min_value=2000, max_value=2025, value=2023,)
-schedules = fastf1.get_event_schedule(year)
+schedules = fastf1.get_event_schedule(year,include_testing=False)
 
 #print(schedules)
 
@@ -43,7 +43,8 @@ if st.button("View Standings"):
     for round in racess:
         try:
             session=fastf1.get_session(year,round,"R")
-            session.load(weather=False, telemetry=False,messages=False)
+            session.load(weather=False, telemetry=False,
+                         messages=False,laps=False)
             
             results_df=session.results[['TeamName','FullName','Points','Abbreviation']]
             #BELOW NEW LINE
