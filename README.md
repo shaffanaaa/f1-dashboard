@@ -1,5 +1,3 @@
-# f1-dashboard
-F1 is my favorite sport so I thought I would combine my passion for this sport with my interests in data science and analysis! I used the fastf1-api for the data and Im working on this passion project on the side so some of the stuff does need work, any feedback is appreciated!
 
 Future Features:
 
